@@ -8,15 +8,20 @@ This script requires the following Python libraries:
     -librosa
     -numpy
     -scipy
+    (and probabbly some more now)
 
 You can install these dependencies by running the following command:
 
-  `pip install librosa numpy scipy`
+  `pip install librosa numpy scipy (+ whatever)`
   
 ## Usage
   
-  Edit the variables `min_freq` and `maz_freq` to define the frequency to search for peaks in. 
-  
-  Edit the `"/path/to/your/mp3/file"` in `audio = AudioSegment.from_file("/path/to/your/mp3/file")` to the path to your mp3 file
-  
-  (WARNING: DO NOT USE OVERLY LARGE MP3 FILES UNLESS YOU ARE CONFIDENT YOUR SYSTEM CAN HANDLE IT.)
+No. Look at the code and figure out yourself
+
+## Problems
+
+1. Jank
+2. Future error
+3. Does not have toggle
+4. Only works with .wav
+5. yes
