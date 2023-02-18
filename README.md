@@ -1,5 +1,8 @@
-# Peak-Frequency-Searcher
-This is a Python script that takes an MP3 file as input and outputs the peak frequencies of the audio, as well as the corresponding notes and cents deviation from A440 tuning. It also allows for searching for peak frequencies within a set frequency range.
+# A Python Program That Finds Important Frequencies With The FFT and Finds Their Peaks Whilst Accounting For Overtones by Calculating the Fundamental Frequency Utilizing the YIN Algorithm and Removing the Mathematical Multiples Then Finally Passing the Sound Wave Through a Low Pass Filter (APPTFIFPWAOMCMFTFAUYARMMTFPTSWTALPF)
+
+APPTFIFPWAOMCMFTFAUYARMMTFPTSWTALPF attempts to seekth out notable frequencies using the FFT, and identify their pinnacles whilst considering their overtones by computation of the fundamental frequency by means of the YIN Algorithm. It doth then expunge the mathematical multiples and conduct the sound wave through a Low Pass Filter.
+
+APPTFIFPWAOMCMFTFAUYARMMTFPTSWTALPF uses a CLI interface.
 
 ## Dependencies
 
@@ -8,20 +11,11 @@ This script requires the following Python libraries:
     -librosa
     -numpy
     -scipy
-    (and probabbly some more now)
 
 You can install these dependencies by running the following command:
 
-  `pip install librosa numpy scipy (+ whatever)`
+  `pip install librosa numpy scipy
   
 ## Usage
   
-No. Look at the code and figure out yourself
-
-## Problems
-
-1. Jank
-2. Future error
-3. Does not have toggle
-4. Only works with .wav
-5. yes
+TO DO
