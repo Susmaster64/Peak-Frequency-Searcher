@@ -21,11 +21,11 @@ parser.add_argument('-n', '--num_peaks', type=int,
 
 parser.add_argument('-l','--freq_lower', type=int,
                     default=27.5,
-                    help='The lower bound of the range to fund peaks (Hz) (default :27.5Hz - A0)')
+                    help='The lower bound of the range to find peaks (Hz) (default :27.5Hz - A0)')
 
 parser.add_argument('-u','--freq_upper', type=int,
                     default=14080,
-                    help='The upper bound of the range to fund peaks (Hz) (default :14080Hz - A9)')
+                    help='The upper bound of the range to find peaks (Hz) (default :14080Hz - A9)')
 
 parser.add_argument('-fl','--fun_freq_lower', type=int,
                     default=27.5,
