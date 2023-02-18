@@ -8,13 +8,13 @@ The program aims to seek out notable frequencies in an audio file using the Fast
 
 This program requires the following libraries to be installed:
 
-    -librosa
-    - argparse
+    - librosa
     - numpy
-    - scipy.fftpack
-    - scipy.signal
+    - scipy
     - pydub
     - soundfile
+    
+ You can install these libraries via pip
 
 ## Usage
 
